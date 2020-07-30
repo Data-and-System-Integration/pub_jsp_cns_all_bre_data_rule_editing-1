@@ -8,7 +8,7 @@ public class data_user_defined_multi implements java.io.Serializable {
 	static final long serialVersionUID = 1L;
 
 	private java.lang.Long code_count;
-	private java.util.List<java.lang.Long> user_defined_codes;
+	private java.util.List<java.math.BigDecimal> user_defined_codes;
 
 	public data_user_defined_multi() {
 	}
@@ -21,17 +21,17 @@ public class data_user_defined_multi implements java.io.Serializable {
 		this.code_count = code_count;
 	}
 
-	public java.util.List<java.lang.Long> getUser_defined_codes() {
+	public java.util.List<java.math.BigDecimal> getUser_defined_codes() {
 		return this.user_defined_codes;
 	}
 
 	public void setUser_defined_codes(
-			java.util.List<java.lang.Long> user_defined_codes) {
+			java.util.List<java.math.BigDecimal> user_defined_codes) {
 		this.user_defined_codes = user_defined_codes;
 	}
 
 	public data_user_defined_multi(java.lang.Long code_count,
-			java.util.List<java.lang.Long> user_defined_codes) {
+			java.util.List<java.math.BigDecimal> user_defined_codes) {
 		this.code_count = code_count;
 		this.user_defined_codes = user_defined_codes;
 	}
