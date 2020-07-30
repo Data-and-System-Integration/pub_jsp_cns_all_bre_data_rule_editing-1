@@ -30,10 +30,5 @@ public class data_user_defined_multi implements java.io.Serializable {
 		this.user_defined_codes = user_defined_codes;
 	}
 
-	public data_user_defined_multi(java.lang.Long code_count,
-			java.util.List<java.math.BigDecimal> user_defined_codes) {
-		this.code_count = code_count;
-		this.user_defined_codes = user_defined_codes;
-	}
 
 }
