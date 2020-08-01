@@ -116,7 +116,7 @@
       <childColumns>
         <org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
           <hideColumn>false</hideColumn>
-          <width>100</width>
+          <width>155</width>
           <header>Madefor : Data_npd_attr_24</header>
           <varName>data_npd_attr_24</varName>
           <fieldType>BigDecimal</fieldType>
@@ -184,12 +184,12 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1274000775</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1274001465 , 1274001462</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
