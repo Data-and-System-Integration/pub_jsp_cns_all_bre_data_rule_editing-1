@@ -1,8 +1,51 @@
 <scenario>
-  <name>test_case_4</name>
+  <name>test_case_4.scenario</name>
   <maxRuleFirings>100000</maxRuleFirings>
   <globals/>
-  <fixtures/>
+  <fixtures>
+    <fact-data>
+      <type>pub_cns_combined_flattened_bre</type>
+      <fieldData>
+        <field-data>
+          <name>data_subcategory_code</name>
+          <value>1274000778</value>
+          <nature>4</nature>
+        </field-data>
+        <field-data>
+          <name>data_npd_attr_32</name>
+          <value>1274000827</value>
+          <nature>4</nature>
+        </field-data>
+        <field-data>
+          <name>data_npd_attr_24</name>
+          <value>1274001462</value>
+          <nature>4</nature>
+        </field-data>
+      </fieldData>
+      <name>p</name>
+      <isModify>false</isModify>
+    </fact-data>
+    <execution-trace>
+      <executionTimeResult>42</executionTimeResult>
+      <numberOfRulesFired>1</numberOfRulesFired>
+    </execution-trace>
+    <expect-fact>
+      <fieldValues>
+        <expect-field>
+          <fieldName>data_npd_attr_24</fieldName>
+          <expected></expected>
+          <actualResult>1274001462</actualResult>
+          <successResult>false</successResult>
+          <explanation>[pub_cns_combined_flattened_bre] field [data_npd_attr_24] was [1274001462] expected [].</explanation>
+          <operator>==</operator>
+          <nature>0</nature>
+        </expect-field>
+      </fieldValues>
+      <name>pub_cns_combined_flattened_bre</name>
+      <anonymous>true</anonymous>
+    </expect-fact>
+  </fixtures>
+  <lastRunResult>2020-08-05 12:12:54.924 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.jsp_cns_mon.pub_jsp_cns_all_bre_data_rule_editing</packageName>
