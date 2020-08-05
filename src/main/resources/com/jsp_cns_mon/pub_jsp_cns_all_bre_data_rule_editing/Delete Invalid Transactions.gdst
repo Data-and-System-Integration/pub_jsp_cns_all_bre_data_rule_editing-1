@@ -229,7 +229,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1.0,2.3,5.0</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
