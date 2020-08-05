@@ -33,7 +33,7 @@
       <fieldValues>
         <expect-field>
           <fieldName>data_status</fieldName>
-          <expected>0.0</expected>
+          <expected>82</expected>
           <actualResult>82</actualResult>
           <successResult>false</successResult>
           <explanation>[pub_cns_combined_flattened_bre] field [data_status] was [82] expected [0.0].</explanation>
@@ -45,7 +45,7 @@
       <anonymous>true</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2020-08-05 07:26:56.32 UTC</lastRunResult>
+  <lastRunResult>2020-08-05 07:32:44.232 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.jsp_cns_mon.pub_jsp_cns_all_bre_data_rule_editing</packageName>
