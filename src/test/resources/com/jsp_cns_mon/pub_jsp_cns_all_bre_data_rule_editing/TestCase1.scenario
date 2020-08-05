@@ -7,21 +7,32 @@
       <type>pub_cns_combined_flattened_bre</type>
       <fieldData>
         <field-data>
+          <name>panelist_status</name>
+          <value>82</value>
+          <nature>4</nature>
+        </field-data>
+        <field-data>
           <name>panelist_multi_choice_codes_30</name>
-          <collectionFieldList>
-            <field-data>
-              <name>panelist_multi_choice_codes_30</name>
-              <value>1</value>
-              <nature>4</nature>
-            </field-data>
-          </collectionFieldList>
         </field-data>
       </fieldData>
       <name>t6</name>
       <isModify>false</isModify>
     </fact-data>
     <execution-trace/>
+    <expect-fact>
+      <fieldValues>
+        <expect-field>
+          <fieldName>data_status</fieldName>
+          <expected></expected>
+          <operator>==</operator>
+          <nature>0</nature>
+        </expect-field>
+      </fieldValues>
+      <name>pub_cns_combined_flattened_bre</name>
+      <anonymous>true</anonymous>
+    </expect-fact>
   </fixtures>
+  <lastRunResult>2020-08-05 07:16:31.322 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.jsp_cns_mon.pub_jsp_cns_all_bre_data_rule_editing</packageName>
