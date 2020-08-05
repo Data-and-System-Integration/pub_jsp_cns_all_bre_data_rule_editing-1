@@ -16,7 +16,7 @@
           <collectionFieldList>
             <field-data>
               <name>panelist_multi_choice_codes_30</name>
-              <value>2.3</value>
+              <value>[2.5]</value>
               <nature>4</nature>
             </field-data>
           </collectionFieldList>
@@ -26,7 +26,7 @@
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
-      <executionTimeResult>14</executionTimeResult>
+      <executionTimeResult>10</executionTimeResult>
       <numberOfRulesFired>1</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
@@ -45,7 +45,7 @@
       <anonymous>true</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2020-08-05 07:32:44.232 UTC</lastRunResult>
+  <lastRunResult>2020-08-05 08:16:38.976 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.jsp_cns_mon.pub_jsp_cns_all_bre_data_rule_editing</packageName>
