@@ -44,7 +44,7 @@
       <conditions>
         <condition-column52>
           <hideColumn>false</hideColumn>
-          <width>247</width>
+          <width>210</width>
           <header>data_subcategory_code equals</header>
           <constraintValueType>3</constraintValueType>
           <factField>data_subcategory_code</factField>
@@ -54,7 +54,7 @@
         </condition-column52>
         <condition-column52>
           <hideColumn>false</hideColumn>
-          <width>204</width>
+          <width>312</width>
           <header>Apparelsilh : data_npd_attr_32 equals</header>
           <constraintValueType>3</constraintValueType>
           <factField>data_npd_attr_32</factField>
@@ -69,7 +69,7 @@
             <isOtherwise>false</isOtherwise>
           </typedDefaultValue>
           <hideColumn>false</hideColumn>
-          <width>100</width>
+          <width>331</width>
           <header>Madefor : data_npd_attr_24 not in</header>
           <constraintValueType>1</constraintValueType>
           <factField>data_npd_attr_24</factField>
@@ -78,7 +78,6 @@
           <parameters/>
           <binding></binding>
         </condition-column52>
-        <condition-column52 reference="../condition-column52[3]"/>
       </conditions>
       <window>
         <parameters/>
@@ -185,12 +184,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString></valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString></valueString>
+        <valueString>1274001465,1274001462</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -234,12 +228,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString></valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString></valueString>
+        <valueString>1274001465,1274001462</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -283,12 +272,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString></valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString></valueString>
+        <valueString>1274001465,1274001462</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
