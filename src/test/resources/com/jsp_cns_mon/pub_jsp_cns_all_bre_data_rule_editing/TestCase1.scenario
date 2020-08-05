@@ -1,8 +1,27 @@
 <scenario>
-  <name>TestCase1</name>
+  <name>TestCase1.scenario</name>
   <maxRuleFirings>100000</maxRuleFirings>
   <globals/>
-  <fixtures/>
+  <fixtures>
+    <fact-data>
+      <type>pub_cns_combined_flattened_bre</type>
+      <fieldData>
+        <field-data>
+          <name>panelist_multi_choice_codes_30</name>
+          <collectionFieldList>
+            <field-data>
+              <name>panelist_multi_choice_codes_30</name>
+              <value>1</value>
+              <nature>4</nature>
+            </field-data>
+          </collectionFieldList>
+        </field-data>
+      </fieldData>
+      <name>t6</name>
+      <isModify>false</isModify>
+    </fact-data>
+    <execution-trace/>
+  </fixtures>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>com.jsp_cns_mon.pub_jsp_cns_all_bre_data_rule_editing</packageName>
